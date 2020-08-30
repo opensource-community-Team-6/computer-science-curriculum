@@ -322,6 +322,199 @@ export const accessibilityCollection = {
 				},
 			]
 		},
+		{
+			name:"4학년",
+			skills: [
+				{
+					name: "인턴십Ⅰ",
+					description: {
+						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
+						links: [
 	
+						]
+					}
+				},
+				{
+					name: "인턴십Ⅳ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "실무프로젝트Ⅰ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "캡스톤디자인Ⅰ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "기계학습",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "임베디드시스템",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "영상처리",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "창업산학세미나Ⅰ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "컴퓨터교재연구 및 지도법",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "빅데이터시스템설계",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "인턴십Ⅱ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "인턴십Ⅲ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "실무프로젝트Ⅱ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "창업파일럿프로젝트",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "정보검색",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "창업산학세미나Ⅱ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "컴퓨터논리 및 논술",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "컴퓨터교육론",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "자연어 처리",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "빅데이터분석시각화",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "클라우드컴퓨팅",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+			]
+		}
 	]
 };
