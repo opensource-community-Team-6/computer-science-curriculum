@@ -1,17 +1,25 @@
 export const accessibilityCollection = {
 	name: "충북대학교 소프트웨어학과 커리큘럼",
-	areas: [
-		{
-			name:"1학년",
-			skills: [
-				{
+	areas: [{
+			name: "1학년",
+			skills: [{
 					name: "이산수학",
 					description: {
 						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 						links: [
-	
+
 						]
-					}
+					},
+					skills: [{
+						name: "알고리즘",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+					}, ]
+
 				},
 				{
 					name: "창의공학설계",
@@ -20,7 +28,34 @@ export const accessibilityCollection = {
 						links: [
 
 						]
-					}
+					},
+					skills: [{
+						name: "산학프로젝트",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+						skills: [{
+							name: "캡스톤 디자인 I",
+							description: {
+								text: "",
+								links: [
+	
+								]
+							},
+							skills: [{
+								name: "캡스톤 디자인 II",
+								description: {
+									text: "",
+									links: [
+		
+									]
+								},
+							}, ]
+						}, ]
+					}, ]
 				},
 				{
 					name: "미래설계탐색",
@@ -38,7 +73,43 @@ export const accessibilityCollection = {
 						links: [
 
 						]
-					}
+					},
+					skills: [{
+						name: "자료구조",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+
+						skills: [{
+							name: "데이터베이스시스템",
+							description: {
+								text: "",
+								links: [
+
+								]
+							},
+							skills: [{
+								name: "빅데이터시스템설계",
+								description: {
+									text: "",
+									links: [
+	
+									]
+								},
+							}, ]
+						}, {
+							name: "알고리즘",
+							description: {
+								text: "",
+								links: [
+
+								]
+							},
+						}, ]
+					}, ]
 				},
 				{
 					name: "오픈소스소프트웨어이해와실습",
@@ -61,16 +132,24 @@ export const accessibilityCollection = {
 			]
 		},
 		{
-			name:"2학년",
-			skills: [
-				{
+			name: "2학년",
+			skills: [{
 					name: "자료구조",
 					description: {
 						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 						links: [
-	
+
 						]
-					}
+					},
+					skills: [{
+						name: "알고리즘",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+					}, ]
 				},
 				{
 					name: "컴퓨터구조",
@@ -79,7 +158,24 @@ export const accessibilityCollection = {
 						links: [
 
 						]
-					}
+					},
+					skills: [{
+						name: "펌웨어프로그래밍",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+					},{
+						name: "운영체제",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+					}, ]
 				},
 				{
 					name: "소프트웨어실전영어",
@@ -97,7 +193,25 @@ export const accessibilityCollection = {
 						links: [
 
 						]
-					}
+					},
+					skills: [{
+						name: "객체지향설계",
+						description: {
+							text: "",
+							links: [
+
+							]
+						},
+						skills: [{
+							name: "소프트웨어공학",
+							description: {
+								text: "",
+								links: [
+
+								]
+							},
+						}, ]
+					}, ]
 				},
 				{
 					name: "선형대수학",
@@ -133,7 +247,7 @@ export const accessibilityCollection = {
 						links: [
 
 						]
-					}
+					},
 				},
 				{
 					name: "프로그래밍언어론",
@@ -192,14 +306,13 @@ export const accessibilityCollection = {
 			]
 		},
 		{
-			name:"3학년",
-			skills: [
-				{
+			name: "3학년",
+			skills: [{
 					name: "운영체제",
 					description: {
 						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 						links: [
-	
+
 						]
 					}
 				},
@@ -323,14 +436,13 @@ export const accessibilityCollection = {
 			]
 		},
 		{
-			name:"4학년",
-			skills: [
-				{
+			name: "4학년",
+			skills: [{
 					name: "인턴십Ⅰ",
 					description: {
 						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
 						links: [
-	
+
 						]
 					}
 				},
