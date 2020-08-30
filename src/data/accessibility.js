@@ -190,6 +190,138 @@ export const accessibilityCollection = {
 					}
 				},
 			]
-		}
+		},
+		{
+			name:"3학년",
+			skills: [
+				{
+					name: "운영체제",
+					description: {
+						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
+						links: [
+	
+						]
+					}
+				},
+				{
+					name: "객체지향 설계",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "오픈소스 웹소프트웨어",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "컴파일러",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "컴퓨터네트워크",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "창업기획",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "오픈소스전문프로젝트",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "소프트웨어공학",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "산학프로젝트",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "펌웨어프로그래밍",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "창업설계 ",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "정보보호",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "인공지능",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+				{
+					name: "데이터베이스시스템",
+					description: {
+						text: "",
+						links: [
+
+						]
+					}
+				},
+			]
+		},
+	
 	]
 };
