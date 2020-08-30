@@ -133,24 +133,7 @@ export const accessibilityCollection = {
 		},
 		{
 			name: "2학년",
-			skills: [{
-					name: "자료구조",
-					description: {
-						text: "컴퓨터과학 및 디지털정보처리 분야의 수학적 기초가 되는 논리, 함수, 관계를 포함한 집합, 알고리즘, 수학적 귀납법 및 증명방법, 그래프, 트리, 부울 대수 등을 학습한다.",
-						links: [
-
-						]
-					},
-					skills: [{
-						name: "알고리즘",
-						description: {
-							text: "",
-							links: [
-
-							]
-						},
-					}, ]
-				},
+			skills: [
 				{
 					name: "컴퓨터구조",
 					description: {
@@ -240,15 +223,7 @@ export const accessibilityCollection = {
 						]
 					}
 				},
-				{
-					name: "알고리즘",
-					description: {
-						text: "",
-						links: [
 
-						]
-					},
-				},
 				{
 					name: "프로그래밍언어론",
 					description: {
@@ -380,15 +355,6 @@ export const accessibilityCollection = {
 					}
 				},
 				{
-					name: "산학프로젝트",
-					description: {
-						text: "",
-						links: [
-
-						]
-					}
-				},
-				{
 					name: "펌웨어프로그래밍",
 					description: {
 						text: "",
@@ -424,15 +390,6 @@ export const accessibilityCollection = {
 						]
 					}
 				},
-				{
-					name: "데이터베이스시스템",
-					description: {
-						text: "",
-						links: [
-
-						]
-					}
-				},
 			]
 		},
 		{
@@ -457,15 +414,6 @@ export const accessibilityCollection = {
 				},
 				{
 					name: "실무프로젝트Ⅰ",
-					description: {
-						text: "",
-						links: [
-
-						]
-					}
-				},
-				{
-					name: "캡스톤디자인Ⅰ",
 					description: {
 						text: "",
 						links: [
@@ -511,15 +459,6 @@ export const accessibilityCollection = {
 				},
 				{
 					name: "컴퓨터교재연구 및 지도법",
-					description: {
-						text: "",
-						links: [
-
-						]
-					}
-				},
-				{
-					name: "빅데이터시스템설계",
 					description: {
 						text: "",
 						links: [
