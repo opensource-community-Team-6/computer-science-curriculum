@@ -352,7 +352,7 @@ export const fundamentalsCollection = {
 						 },
 					 },
 					 {
-						 name: "병렬프로그래밍",
+						 name: "병렬 프로그래밍",
 						 description: {
 							 text: "병렬처리 환경의 소개와 병렬프로그래밍 기법에 대하여 입문수준의 지식을 제공함을 목적으로 한다. 벡터처리기, 멀티코어, 그래픽카드 등 병렬처리 H/W를 활용하는 병렬프로그래밍 API의 사용에 중점을 둔다. (전공선택(3학점)",
 							 links: [
