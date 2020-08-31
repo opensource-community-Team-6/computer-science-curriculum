@@ -14,7 +14,15 @@ export const webcomponentsCollection = {
 					name: "창의공학설계",
 					description: {
 						text: "공학에 대한 경험, 이해 창의성 고취, 협동심 배양 등을 위한 팀별 실험 및 프로젝트를 수행한다."
-					}
+					},
+					skills: [
+						{
+							name: "종합설계1",
+							description: {
+								text: "공학적 주제 아래, 결과물의 사양 도출, 설계 및 분석, 관련 문헌 조사 등을 수행한다."
+							}
+						}
+					]
 				}		
 			]
 		},
@@ -37,7 +45,15 @@ export const webcomponentsCollection = {
 					name: "회로이론1",
 					description: {
 						text: "기초적인 전기회로에 대한 해석을 배운다."
-					}					
+					},
+					skills: [
+						{
+							name: "전자회로1",
+							description: {
+								text: "능동소자들이 포함된 전기회로의 해석 및 설계 방법에 대하여 배운다."
+							}
+						}
+					]
 				},
 				{
 					name: "공학수학1",
@@ -73,7 +89,15 @@ export const webcomponentsCollection = {
 					name: "미래설계1",
 					description: {
 						text: "정보통신공학 분야에 관련된 전공 및 직무 적합성을 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 소개를 초급 수준에서 다룬다."						
-					}				
+					},
+					skills: [
+						{
+							name: "종합설계1",
+							description: {
+								text: "공학적 주제 아래, 결과물의 사양 도출, 설계 및 분석, 관련 문헌 조사 등을 수행한다."
+							}
+						}
+					]				
 				},
 				{
 					name: "임베디드소프트웨어실습",
@@ -116,7 +140,15 @@ export const webcomponentsCollection = {
 					name: "미래설계2",
 					description: {
 						text: "정보통신공학 분야에 관련된 전공 및 직무 적합성을 지속적으로 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 내용을 지속적으로 다룬다."
-					}					
+					},
+					skills: [
+						{
+							name: "종합설계2",
+							description: {
+								text: "전공과정을 통해 습득한 이론을 바탕으로 실제적인 결과물을 도출하고 이를 논문으로 정리하는 과정을 익힌다."
+							}
+						}
+					]					
 				}
 			]
 		},
@@ -163,7 +195,15 @@ export const webcomponentsCollection = {
 					name: "객체지향프로그래밍",
 					description: {
 						text: "플랫폼에 무관한 프로그램 언어의 기초적인 문법을 익히고, GUI 인터페이스, 그래픽, 네트워킹, 데이터베이스 관련 프로그래밍을 실습한다."						
-					}
+					},
+					skills: [
+						{
+							name: "모바일프로그래밍및실습",
+							description: {
+								text: "모바일 장치의 구조 및 기능을 이해하고, 각종 부속장치를 이용한 응용 프로그램을 작성한다."
+							}
+						}
+					]
 				},					
 				{
 					name: "데이터통신설계",
@@ -175,7 +215,15 @@ export const webcomponentsCollection = {
 					name: "미래설계3",
 					description: {
 						text: "보통신공학 분야에 관련된 전공 및 직무 적합성을 지속적으로 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 내용을 지속적으로 다룬다."						
-					}					
+					},
+					skills: [
+						{
+							name: "종합설계2",
+							description: {
+								text: "전공과정을 통해 습득한 이론을 바탕으로 실제적인 결과물을 도출하고 이를 논문으로 정리하는 과정을 익힌다."
+							}
+						}
+					]					
 				},
 				{
 					name: "정보통신실험",
