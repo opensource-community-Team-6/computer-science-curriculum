@@ -225,7 +225,7 @@ export const fundamentalsCollection = {
 					},
 					skills: [
 						{
-							name: "데이터베이스프로그래밍",
+							name: "데이터베이스 프로그래밍",
 							description: {
 								text: "데이터베이스를 이해하고 활용 능력을 키우기 위하여 MySQL, Oracle, Tibero 등의 데이터베이스에 대한 SQL 프로그래밍 작성기법을 익힌다. (전공선택(3학점)",
 								links: [
