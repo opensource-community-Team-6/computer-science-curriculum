@@ -23,4 +23,6 @@ npm run s
 ```
 
 ## Wiki
-[커밋 가이드](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/Guide)
+* [Guide](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/Guide)
+* [git/GitHub 활용](https://docs.google.com/presentation/d/1Gw_l-Yp8q7cLpcEQE2PkqU4Lumd_A-bNLo1vW3oeAdA/edit#slide=id.p)
+* [회의록](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D)
