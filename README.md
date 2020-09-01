@@ -6,3 +6,10 @@
 ![한지은](https://img.shields.io/badge/충북대학교_정보통신공학부-한지은-blue)
 
 ![윤승현](https://img.shields.io/badge/우석대학교_컴퓨터공학과-윤승현-blue)
+
+
+## Install
+``` npm install ```
+
+## Start Server
+``` npm run s ```
