@@ -1,4 +1,4 @@
-export const webcomponentsCollection = {
+export const informationCommunicationCollection = {
 	name: "충북대학교 정보통신공학부 커리큘럼",
 	areas: [
 		{
