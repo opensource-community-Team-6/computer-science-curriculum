@@ -13,3 +13,6 @@
 
 ## Start Server
 ``` npm run s ```
+
+## Wiki
+[커밋 가이드](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/Guide)
