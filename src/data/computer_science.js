@@ -1,4 +1,4 @@
-export const fundamentalsCollection = {
+export const computerScienceCollection = {
 	name: "우석대학교 컴퓨터공학과 커리큘럼",
 	areas: [
 		{

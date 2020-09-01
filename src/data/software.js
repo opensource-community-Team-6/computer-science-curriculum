@@ -1,4 +1,4 @@
-export const accessibilityCollection = {
+export const softwareCollection = {
 	name: "충북대학교 소프트웨어학과 커리큘럼",
 	areas: [{
 			name: "1학년",
