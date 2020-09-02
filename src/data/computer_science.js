@@ -174,7 +174,7 @@ export const computerScienceCollection = {
 					},
 				},
 				{
-					name: "XML 프로그래밍",
+					name: "XML프로그래밍",
 					description: {
 						text: "특정 플랫폼과 프로그램에 독립적인, 데이터 형식 기술 언어인 XML언어와 관련된 기술들에 대하여 교육한다. XML 기본 문법, DTD, DOM, SAX, Schema, XSL, XSLT 등과 같은 주제에 대하여 실습과 함께 학습한다.",
 						
