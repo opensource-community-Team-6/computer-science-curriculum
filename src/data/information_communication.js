@@ -74,9 +74,9 @@ export const informationCommunicationCollection = {
 					}
 				},
 				{
-					name: "C++언어",
+					name: "c++언어",
                		description: {
-                  		text: "C++언어의 객체 지향적 성격과 제반문법, 프로그래밍 기법 등을 심도 있게 이해하고 활용능력을 갖추도록 지도한다."						
+                  		text: "c++언어의 객체 지향적 성격과 제반문법, 프로그래밍 기법 등을 심도 있게 이해하고 활용능력을 갖추도록 지도한다."						
 					}
 				},
 				{
