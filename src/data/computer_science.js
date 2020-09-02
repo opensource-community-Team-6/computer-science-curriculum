@@ -7,7 +7,7 @@ export const computerScienceCollection = {
 				{
 					name: "프로그래밍언어1",
                description: {
-				  text: "C 언어의 기초 구문을 이해하고 함수를 이용한 기초적인 프로그램 작성기법을 익힌다. (전공필수(3학점))",
+				  text: "C언어의 기초 구문을 이해하고 함수를 이용한 기초적인 프로그램 작성기법을 익힌다. (전공필수(3학점))",
 
 					},
 					skills: [
