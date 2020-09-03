@@ -330,7 +330,7 @@ export const softwareCollection = {
 				},
 
 				{
-					name: "창업 설계 ",
+					name: "창업 설계",
 					description: {
 						text: "4차 산업 혁명과 관련된 기술 동향을 파악하고 창업에 관련된 실무 경험을 수행한다. 초청 강연과 창업에 관한 다양한 활동를 통하여 전공 역량을 강화하고 도전 의식을 함양한다.",
 						links: [
@@ -361,7 +361,7 @@ export const softwareCollection = {
 		{
 			name: "4학년",
 			skills: [{
-					name: "인턴십Ⅰ",
+					name: "인턴십 I",
 					description: {
 						text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
 						links: [
@@ -370,7 +370,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "인턴십Ⅳ",
+					name: "인턴십 IV",
 					description: {
 						text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
 						links: [
@@ -379,7 +379,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "실무프로젝트Ⅰ",
+					name: "실무프로젝트 I",
 					description: {
 						text: "설계 프로젝트 수행 경험을 바탕으로 보다 실질적이고 실무 중심적 과제 수행의 관점에서 학습자 주도적으로 학습을 진행한다. 이를 위하여 적용 현장의 특성 분석을 바탕으로 IT 최신 기술의 사용 능력과 실무 현장에서의 요구사항분석, 다양한 소프트웨어 설게 방법론의 활용과 프로젝트 관리 능력 배양의 관점에서 과제를 수행한다.",
 						links: [
@@ -415,7 +415,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "창업산학세미나Ⅰ",
+					name: "창업산학세미나 I",
 					description: {
 						text: "산업체와 학교의 교류를 통한 기업가정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
 						links: [
@@ -433,7 +433,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "인턴십Ⅱ",
+					name: "인턴십 II",
 					description: {
 						text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
 						links: [
@@ -442,7 +442,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "인턴십Ⅲ",
+					name: "인턴십 III",
 					description: {
 						text: "학교에서 습득한 전공기술을 산업현장 기술과의 접목을 통하여 현장적응 능력을 배양하고 대학과 지역 산업체간의 유기적인 산학협동 관계를 정립한다.",
 						links: [
@@ -451,7 +451,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "실무프로젝트Ⅱ",
+					name: "실무프로젝트 III",
 					description: {
 						text: "설계 프로젝트 수행 경험을 바탕으로 보다 실질적이고 실무 중심적 과제 수행의 관점에서 학습자 주도적으로 학습을 진행한다. 이를 위하여 적용 현장의 특성 분석을 바탕으로 IT 최신 기술의 사용 능력과 실무 현장에서의 요구사항분석, 다양한 소프트웨어 설게 방법론의 활용과 프로젝트 관리 능력 배양의 관점에서 과제를 수행한다.",
 						links: [
@@ -478,7 +478,7 @@ export const softwareCollection = {
 					}
 				},
 				{
-					name: "창업산학세미나Ⅱ",
+					name: "창업산학세미나 II",
 					description: {
 						text: "산업체와 학교의 교류를 통한 기업가 정신, 최신 IT기술 동향 및 산업체의 경영철학과 경영방법을 습득한다.",
 						links: [
