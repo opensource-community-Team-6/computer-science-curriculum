@@ -17,10 +17,18 @@ export const informationCommunicationCollection = {
 					},
 					skills: [
 						{
-							name: "종합설계1",
+							name: "미래설계1",
 							description: {
-								text: "공학적 주제 아래, 결과물의 사양 도출, 설계 및 분석, 관련 문헌 조사 등을 수행한다."
-							}
+								text: "정보통신공학 분야에 관련된 전공 및 직무 적합성을 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 소개를 초급 수준에서 다룬다."						
+							},
+							skills: [
+								{
+									name: "종합설계1",
+									description: {
+										text: "공학적 주제 아래, 결과물의 사양 도출, 설계 및 분석, 관련 문헌 조사 등을 수행한다."
+									}
+								}
+							]				
 						}
 					]
 				}		
@@ -86,20 +94,6 @@ export const informationCommunicationCollection = {
 					}
 				},
 				{
-					name: "미래설계1",
-					description: {
-						text: "정보통신공학 분야에 관련된 전공 및 직무 적합성을 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 소개를 초급 수준에서 다룬다."						
-					},
-					skills: [
-						{
-							name: "종합설계1",
-							description: {
-								text: "공학적 주제 아래, 결과물의 사양 도출, 설계 및 분석, 관련 문헌 조사 등을 수행한다."
-							}
-						}
-					]				
-				},
-				{
 					name: "임베디드소프트웨어실습",
 					description: {
 						text: "임베디드소프트웨어 및 마이크로프로세서의 개념, 구조, 응용사례들을 살펴보고, ARM Cortex M3 기반 실습을 통하여 각종 디지털 회로의 제어방법을 학습한다."						
@@ -143,10 +137,18 @@ export const informationCommunicationCollection = {
 					},
 					skills: [
 						{
-							name: "종합설계2",
+							name: "미래설계3",
 							description: {
-								text: "전공과정을 통해 습득한 이론을 바탕으로 실제적인 결과물을 도출하고 이를 논문으로 정리하는 과정을 익힌다."
-							}
+								text: "보통신공학 분야에 관련된 전공 및 직무 적합성을 지속적으로 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 내용을 지속적으로 다룬다."						
+							},
+							skills: [
+								{
+									name: "종합설계2",
+									description: {
+										text: "전공과정을 통해 습득한 이론을 바탕으로 실제적인 결과물을 도출하고 이를 논문으로 정리하는 과정을 익힌다."
+									}
+								}
+							]					
 						}
 					]					
 				}
@@ -155,12 +157,6 @@ export const informationCommunicationCollection = {
 		{
 			name: "3학년",
 			skills: [
-				{
-					name: "전자회로1",
-					description: {
-						text: "능동소자들이 포함된 전기회로의 해석 및 설계 방법에 대하여 배운다."
-					}
-				},
 				{
 					name: "통신공학",
 					description: {
@@ -212,29 +208,9 @@ export const informationCommunicationCollection = {
 					}
 				},
 				{
-					name: "미래설계3",
-					description: {
-						text: "보통신공학 분야에 관련된 전공 및 직무 적합성을 지속적으로 파악하고, 졸업 후의 진로를 고려하여 졸업할 때까지의 설계 작품에 관련된 전반적인 내용을 지속적으로 다룬다."						
-					},
-					skills: [
-						{
-							name: "종합설계2",
-							description: {
-								text: "전공과정을 통해 습득한 이론을 바탕으로 실제적인 결과물을 도출하고 이를 논문으로 정리하는 과정을 익힌다."
-							}
-						}
-					]					
-				},
-				{
 					name: "정보통신실험",
 					description: {
 						text: "기초적인 전자회로의 실험과 이를 응용한 통신회로의 설계를 다룬다."						
-					}
-				},
-				{
-					name: "종합설계1",
-					description: {
-						text: "공학적 주제 아래, 결과물의 사양 도출, 설계 및 분석, 관련 문헌 조사 등을 수행한다."						
 					}
 				},
 				{
@@ -268,12 +244,6 @@ export const informationCommunicationCollection = {
 					}
 				},
 				{
-					name: "모바일프로그래밍및실습",
-					description: {
-						text: "모바일 장치의 구조 및 기능을 이해하고, 각종 부속장치를 이용한 응용 프로그램을 작성한다."
-					}
-				},
-				{
 					name: "디지털신호처리설계",
 					description: {
 						text: "Discrete-Time System의 주요 이론을 학습하며, 실제 신호처리 분야에서 사용되는 DFT 및 FFT 알고리즘과 신호해석 기법을 다룬다."					}
@@ -295,12 +265,6 @@ export const informationCommunicationCollection = {
 		{
 			name: "4학년",
 			skills: [
-				{
-					name: "종합설계2",
-					description: {
-						text: "전공과정을 통해 습득한 이론을 바탕으로 실제적인 결과물을 도출하고 이를 논문으로 정리하는 과정을 익힌다."						
-					}
-				},
 				{
 					name: "정보응용실험",
 					description: {
