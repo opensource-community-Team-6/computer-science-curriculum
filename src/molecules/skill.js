@@ -108,7 +108,17 @@ export class Skill extends LitElement {
 					color:white;
 				}
 
-	
+				#grade{
+					position:absolute;
+					z-index:1;
+					right:0px;
+					bottom:0px;
+					background:black;
+					color:white;
+					padding:2px 3px;
+					font-size:12px;
+					border-radius:5px;
+				}
 
 				#img-container {
 					width: var(--skill-img-size);
@@ -345,8 +355,6 @@ export class Skill extends LitElement {
 	render () {
 		const {skill, collection, area, completed} = this;
 		const {name, skills,necessary,grade} = skill;
-
-		console.log(skill)
 
 		return html`
 			<div id="skill" aria-label="${name}" tabindex="0" class="${completed ? `completed` : ``}" @click="${this.toggleForceShowDescription}" @mouseenter="${this.onMouseEnter}" @mouseleave="${this.onMouseLeave}">
