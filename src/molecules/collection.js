@@ -108,6 +108,23 @@ export class Collection extends LitElement {
 	copyLink () {
 		location.hash = `#${getId(this.collection)}`;
 		copyToClipboard(`${getShareUrl()}${location.hash}`)
+
+		var woosuk="우석";
+		var software = "소프트웨어";
+		var infor = "정보";
+		woosuk = encodeURI(woosuk);
+		software = encodeURI(software);
+		infor = encodeURI(infor);
+
+		if(window.location.href.indexOf(woosuk) > -1){
+			window.open('https://ce.woosuk.ac.kr/2015/inner.php?sMenu=C2000');
+		}
+		else if(window.location.href.indexOf(software) > -1){
+			window.open('https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887531');
+		}
+		else if(window.location.href.indexOf(infor) > -1){
+			window.open('http://inform.chungbuk.ac.kr/include/contents.php?pgID=ID15637656472');
+		}
 	}
 
 	/**
