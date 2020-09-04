@@ -120,7 +120,7 @@ export class Collection extends LitElement {
 		var woosuk="우석대학교-컴퓨터공학과";
 		var software = "충북대학교-소프트웨어학과";
 		var infor = "충북대학교-정보통신공학부";
-		var easycourse = "SW융합전공-EASY코스";
+		var easycourse = "sw융합전공-easy코스";
 		woosuk = encodeURI(woosuk);
 		software = encodeURI(software);
 		infor = encodeURI(infor);
