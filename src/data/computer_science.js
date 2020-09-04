@@ -16,7 +16,6 @@ export const computerScienceCollection = {
 					skills: [
 						{
 							name: "프로그래밍언어2",
-							necessary:true,
 							grade:3,
 							description: {
 								text: "C 언어를 이용하여 포인터, 구조체 등의 구문을 이해하고 고급 프로그램 작성기법을 익힌다.",
@@ -50,11 +49,11 @@ export const computerScienceCollection = {
 			name: "2학년",
 			skills: [
 				{
-					name: "논리회로",
+					name: "자료구조",
 					necessary:true,
 					grade:3,
                description: {
-				  text: "컴퓨터의 내부회로의 기본이 되는 조합 및 순차 논리회로, 기억장치, 레지스터 등의 구성 및 동작원리를 익힌다.",
+				  text: "효율적이고 명확한 자료의 표현과 처리를 위한 자료구조의 추상적인 정의방법과 기초 자료 구조의 구현법을 다룬다.",
 						
 					},
 					skills: [
@@ -70,11 +69,10 @@ export const computerScienceCollection = {
 					]
 				},
 				{
-					name: "자료구조",
-					necessary:true,
+					name: "논리회로",
 					grade:3,
 					description: {
-						text: "효율적이고 명확한 자료의 표현과 처리를 위한 자료구조의 추상적인 정의방법과 기초 자료 구조의 구현법을 다룬다.",
+						text: "컴퓨터의 내부회로의 기본이 되는 조합 및 순차 논리회로, 기억장치, 레지스터 등의 구성 및 동작원리를 익힌다.",
 						
 					},
 				},
