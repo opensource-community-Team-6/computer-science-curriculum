@@ -29,6 +29,8 @@ npm run s
 * [커밋 규칙](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/Commit)
 * [브랜치 규칙](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/Branch)
 * [회의록](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/%ED%9A%8C%EC%9D%98%EB%A1%9D)
+* [프로젝트를마치며...](https://github.com/opensource-community-Team-6/computer-science-curriculum/wiki/회고록)
+
 
 ## 🔗 Reference
 * [우석대학교 컴퓨터공학과 커리큘럼](https://ce.woosuk.ac.kr/2015/inner.php?sMenu=C2000)
