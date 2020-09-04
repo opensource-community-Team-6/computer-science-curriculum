@@ -98,6 +98,14 @@ export class Collection extends LitElement {
 						display: block;
 					}
 				}
+
+				.logo{
+					width:auto;
+					height:48px;
+					position:relative;
+					margin-right:10px;
+					top:12px;
+				}
 			`
 		];
 	}
@@ -108,6 +116,28 @@ export class Collection extends LitElement {
 	copyLink () {
 		location.hash = `#${getId(this.collection)}`;
 		copyToClipboard(`${getShareUrl()}${location.hash}`)
+
+		var woosuk="우석대학교-컴퓨터공학과";
+		var software = "충북대학교-소프트웨어학과";
+		var infor = "충북대학교-정보통신공학부";
+		var easycourse = "sw융합전공-easy코스";
+		woosuk = encodeURI(woosuk);
+		software = encodeURI(software);
+		infor = encodeURI(infor);
+		easycourse = encodeURI(easycourse);
+
+		if(window.location.href.indexOf(woosuk) > -1){
+			window.open('https://ce.woosuk.ac.kr/2015/inner.php?sMenu=C2000');
+		}
+		else if(window.location.href.indexOf(software) > -1){
+			window.open('https://software.cbnu.ac.kr/include/contents.php?pgID=ID12415887531');
+		}
+		else if(window.location.href.indexOf(infor) > -1){
+			window.open('http://inform.chungbuk.ac.kr/include/contents.php?pgID=ID15637656472');
+		}
+		else if(window.location.href.indexOf(easycourse) > -1){
+			window.open('http://sw7up.cbnu.ac.kr/convergence-center/easy');
+		}
 	}
 
 	/**
@@ -117,7 +147,7 @@ export class Collection extends LitElement {
 		const {collection, index, compact} = this;
 
 		return html`
-			${collection.name != null ? html`<h1 id="title" @click="${this.copyLink}">${index != null ? `${index + 1}. ` : undefined}${collection.name}</h1>` : undefined}
+			${collection.name != null ? html`<h1 id="title" @click="${this.copyLink}">${collection.img ? html`<img class="logo" src='${collection.img}'/>`:undefined}${collection.name}</h1>` : undefined}
 			<div id="areas">
 				${repeat(collection.areas || [], area => getId(collection, area), (area, i) => html`
 					<div class="area">

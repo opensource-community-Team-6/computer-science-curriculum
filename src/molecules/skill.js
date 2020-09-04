@@ -96,6 +96,42 @@ export class Skill extends LitElement {
 					hyphens: auto;
 				}
 
+				#necessary{
+					position:absolute;
+					z-index:1;
+					font-size:11px;
+					border-radius:5px;
+					left:0px;
+					top:0px;
+					padding:2px 3px;
+					background:#CC1100;
+					color:white;
+				}
+
+				#teaching{
+					position:absolute;
+					z-index:1;
+					font-size:11px;
+					border-radius:5px;
+					left:0px;
+					top:0px;
+					padding:2px 3px;
+					background:#CC1100;
+					color:white;
+				}
+
+				#grade{
+					position:absolute;
+					z-index:1;
+					right:0px;
+					bottom:0px;
+					background:black;
+					color:white;
+					padding:2px 3px;
+					font-size:12px;
+					border-radius:5px;
+				}
+
 				#img-container {
 					width: var(--skill-img-size);
 					height: var(--skill-img-size);
@@ -330,11 +366,14 @@ export class Skill extends LitElement {
 	 */
 	render () {
 		const {skill, collection, area, completed} = this;
-		const {name, skills} = skill;
+		const {name, skills,necessary,grade,teaching} = skill;
 
 		return html`
 			<div id="skill" aria-label="${name}" tabindex="0" class="${completed ? `completed` : ``}" @click="${this.toggleForceShowDescription}" @mouseenter="${this.onMouseEnter}" @mouseleave="${this.onMouseLeave}">
 				<div id="img-container">
+					 ${necessary ? html`<div id="necessary">전필</div>`:''}
+					 ${teaching ? html`<div id="teaching">교직</div>`:''}
+				     ${grade ? html`<div id="grade">${grade}</div>`:''}
 					<img id="img" loading="lazy" draggable="false" width="70px" height="70px" intrinsicsize="70x70" alt="${name}" role="presentation" data-src="${constructImagePathPrefix(collection, area, skill)}" />
 				</div>
 				<h6 id="title">${name}</h6>
