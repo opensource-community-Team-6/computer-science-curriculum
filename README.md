@@ -1,7 +1,6 @@
 # 오픈소스 커뮤니티 6팀 프로젝트
 * [Web Skills](https://github.com/cbnuswoss/web-skills)를 이용하여 우리학교 CS 커리큘럼 페이지 만들기
-
-  [Demo](https://opensource-community-team-6.github.io/computer-science-curriculum/)
+* [Demo](https://opensource-community-team-6.github.io/computer-science-curriculum/)
 
 
 
