@@ -98,6 +98,14 @@ export class Collection extends LitElement {
 						display: block;
 					}
 				}
+
+				.logo{
+					width:auto;
+					height:48px;
+					position:relative;
+					margin-right:10px;
+					top:12px;
+				}
 			`
 		];
 	}
@@ -134,7 +142,7 @@ export class Collection extends LitElement {
 		const {collection, index, compact} = this;
 
 		return html`
-			${collection.name != null ? html`<h1 id="title" @click="${this.copyLink}">${index != null ? `${index + 1}. ` : undefined}${collection.name}</h1>` : undefined}
+			${collection.name != null ? html`<h1 id="title" @click="${this.copyLink}">${collection.img ? html`<img class="logo" src='${collection.img}'/>`:undefined}${collection.name}</h1>` : undefined}
 			<div id="areas">
 				${repeat(collection.areas || [], area => getId(collection, area), (area, i) => html`
 					<div class="area">
