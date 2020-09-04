@@ -1,5 +1,5 @@
 export const easyCourseCollection = {
-    name: "SW융합전공 EASY코스 커리큘럼",
+    name: "sw융합전공 easy코스 커리큘럼",
     img: "assets/logo/충북대학교.png",
     areas: [
         {
