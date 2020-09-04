@@ -117,9 +117,9 @@ export class Collection extends LitElement {
 		location.hash = `#${getId(this.collection)}`;
 		copyToClipboard(`${getShareUrl()}${location.hash}`)
 
-		var woosuk="우석";
-		var software = "소프트웨어";
-		var infor = "정보";
+		var woosuk="우석대학교-컴퓨터공학과";
+		var software = "충북대학교-소프트웨어학과";
+		var infor = "충북대학교-정보통신공학부";
 		woosuk = encodeURI(woosuk);
 		software = encodeURI(software);
 		infor = encodeURI(infor);
