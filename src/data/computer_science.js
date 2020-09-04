@@ -1,5 +1,6 @@
 export const computerScienceCollection = {
 	name: "우석대학교 컴퓨터공학과 커리큘럼",
+	img:"assets/logo/우석대학교.png",
 	areas: [
 		{
 			name: "1학년",		

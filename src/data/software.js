@@ -1,5 +1,6 @@
 export const softwareCollection = {
 	name: "충북대학교 소프트웨어학과 커리큘럼",
+	img:"assets/logo/충북대학교.png",
 	areas: [{
 			name: "1학년",
 			skills: [{
